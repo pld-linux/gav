@@ -9,7 +9,7 @@ Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	938c8cd9e7eef6842f931620377fe6b4
 Patch0:		%{name}-desktop.patch
 URL:		http://gav.sourceforge.net/
-Buildrequires:	SDL_net-devel
+BuildRequires:	SDL_net-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
