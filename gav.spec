@@ -1,12 +1,12 @@
 Summary:	GPL Arcade Volleyball
 Summary(pl):	Gra zrêczno¶ciowa w siatkówkê
 Name:		gav
-Version:	0.7.3
+Version:	0.8.0
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	938c8cd9e7eef6842f931620377fe6b4
+# Source0-md5:	4972fae26f2d0c0df8a0ce32560b1f5f
 Patch0:		%{name}-desktop.patch
 URL:		http://gav.sourceforge.net/
 BuildRequires:	SDL_net-devel
