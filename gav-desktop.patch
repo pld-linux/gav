@@ -1,0 +1,15 @@
+diff -urN aaa/gav-0.7.3/package/gav.desktop gav-0.7.3/package/gav.desktop
+--- aaa/gav-0.7.3/package/gav.desktop	2002-12-07 13:13:29.000000000 +0100
++++ gav-0.7.3/package/gav.desktop	2003-08-20 16:14:00.000000000 +0200
+@@ -3,8 +3,11 @@
+ Categories=Application;Game;X-Red-Hat-Extra
+ X-Desktop-File-Install-Version=0.2
+ Name=Arcade Volleyball
++Name[pl]=Gra w siatkówkę
+ Comment=GPL remake of the DOS classic
++Comment[pl]=Odświeżona wersja klasycznej gry DOSowej
+ Icon=gav.png
+ Exec=gav
+ Terminal=0
+ Type=Application
++# vi: encoding=utf-8
