@@ -10,7 +10,6 @@ Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 Patch0:		%{name}-desktop.patch
 URL:		http://gav.sourceforge.net/
 Buildrequires:	SDL_net-devel
-
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -27,7 +26,9 @@ dosowej gry Arcade Voleyball.
 
 %build
 ./build_linux.sh
-%{__make}
+%{__make} \
+	CXX="%{__cxx}" \
+	CXXFLAGS="%{rpmcflags} `sdl-config --cflags` -Wall -I`pwd`/menu -I`pwd`/automa -I`pwd`/net -I`pwd`"
 
 %install
 rm -rf $RPM_BUILD_ROOT
