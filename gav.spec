@@ -23,7 +23,9 @@ Source7:	http://gav.sourceforge.net/themes/tgz/florindo.tgz
 # Source7-md5:	51817c29099a8bc6bc2e9a92f64f5c5b
 Patch0:		%{name}-desktop.patch
 URL:		http://gav.sourceforge.net/
+BuildRequires:	SDL_image-devel
 BuildRequires:	SDL_net-devel
+BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
