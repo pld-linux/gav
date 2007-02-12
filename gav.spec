@@ -1,5 +1,5 @@
 Summary:	GPL Arcade Volleyball
-Summary(pl):	Gra zrêczno¶ciowa w siatkówkê
+Summary(pl.UTF-8):   Gra zrÄ™cznoÅ›ciowa w siatkÃ³wkÄ™
 Name:		gav
 Version:	0.9.0
 Release:	1
@@ -32,8 +32,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 GAV stands for GPL Arcade Volleyball, and is a remake of the old dos
 game Arcade Volleyball.
 
-%description -l pl
-GAV oznacza GPL Arcade Volleyball i jest "od¶wie¿on±" wersj± starej
+%description -l pl.UTF-8
+GAV oznacza GPL Arcade Volleyball i jest "odÅ›wieÅ¼onÄ…" wersjÄ… starej
 dosowej gry Arcade Voleyball.
 
 %prep
