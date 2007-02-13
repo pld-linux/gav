@@ -1,5 +1,5 @@
 Summary:	GPL Arcade Volleyball
-Summary(pl.UTF-8):   Gra zręcznościowa w siatkówkę
+Summary(pl.UTF-8):	Gra zręcznościowa w siatkówkę
 Name:		gav
 Version:	0.9.0
 Release:	1
