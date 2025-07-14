@@ -38,7 +38,7 @@ dosowej gry Arcade Voleyball.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 cd themes/
 tar xzvf %{SOURCE1}
